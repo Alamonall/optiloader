@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --max-old-space-size=500 index.js"
+    "test": "node --inspect --trace-warnings --max-old-space-size=500 index.js"
   },
   "repository": {
     "type": "git",
